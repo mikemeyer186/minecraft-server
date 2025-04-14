@@ -8,11 +8,11 @@ services:
             - '8888:25565'
         environment:
             EULA: 'TRUE'
-            SERVER_NAME: 'Peaceful World'
-            LEVEL_TYPE: 'flat'
-            MAX_PLAYERS: '5'
-            MAX_WORLD_SIZE: '1000'
-            DIFFICULTY: 'peaceful'
+            SERVER_NAME: '${SERVER_NAME}'
+            LEVEL_TYPE: '${LEVEL_TYPE}'
+            MAX_PLAYERS: '${MAX_PLAYERS}'
+            MAX_WORLD_SIZE: '${MAX_WORLD_SIZE}'
+            DIFFICULTY: '${DIFFICULTY}'
         volumes:
             - local_data:/data
 
