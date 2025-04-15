@@ -45,7 +45,11 @@ docker compose up -d
 5. Stop the server:
 
 ```shell
+# Stop the server, but keep the data saved
 docker compose down
+
+# Or stop the server and remove all data
+docker compose down -v
 ```
 
 <br>
