@@ -1,6 +1,10 @@
 # Minecraft Server
 
-This repository contains the configuration of a Minecraft Java Server. You can run it on you local machine or on your server. The server is configured to run with the latest version of Minecraft and has some basic settings for configuration.
+This repository contains the configuration of a Minecraft Java Server. You can run it on you local machine or on your server. The server is configured to run with the latest version of Minecraft and has some basic settings for configuration. As a docker image the popular image of `itzg/minecraft-server` is used, which is supported by the Minecraft community.
+
+You can find further information on the following websites:
+https://github.com/itzg/docker-minecraft-server
+https://minecraft.wiki/w/Tutorial:Setting_up_a_Java_Edition_server
 
 <br>
 
@@ -36,10 +40,7 @@ docker compose up -d
 4. Connect to the server:
 
 -   Open Minecraft Java Client and click on "Multiplayer"
--   Click on "Add Server"
--   Enter the server address: `<ip-address>:8888`
--   Click on "Done"
--   Click on the server in the list and then click "Join Server"
+-   Add the server address: `<ip-address>:8888`
 -   Enjoy playing Minecraft!
 
 5. Stop the server:
@@ -48,7 +49,7 @@ docker compose up -d
 # Stop the server, but keep the data saved
 docker compose down
 
-# Or stop the server and remove all data
+# or stop the server and remove all data
 docker compose down -v
 ```
 
@@ -90,8 +91,6 @@ The server can be configured with some basic settings. This settings can easily 
 | MAX_PLAYERS    | Integer from 0 - (2^31 - 1)                                           | `5`              |
 | MAX_WORLD_SIZE | Integer from 1 - 29999984                                             | `1000`           |
 | DIFFICULTY     | `peaceful`, `easy`, `normal`, `hard`                                  | `peaceful`       |
-
-<br>
 
 ### Example
 
