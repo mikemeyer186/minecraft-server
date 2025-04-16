@@ -1,9 +1,9 @@
 # Minecraft Server
 
-This repository contains the configuration of a Minecraft Java Server. You can run it on you local machine or on your server. The server is configured to run with the latest version of Minecraft and has some basic settings for configuration. As a docker image the popular image of `itzg/minecraft-server` is used, which is supported by the Minecraft community.
+This repository contains the configuration of a Minecraft Java Server in a docker container. You can run it on your local machine or on your server. The Minecraft Server is configured to run with the latest version of Minecraft and has some basic settings for configuration. As a container image the popular image of `itzg/minecraft-server` is used, which is supported by the Minecraft community.
 
-You can find further information on the following websites:
-https://github.com/itzg/docker-minecraft-server
+You can find further information on the following websites:<br>
+https://github.com/itzg/docker-minecraft-server<br>
 https://minecraft.wiki/w/Tutorial:Setting_up_a_Java_Edition_server
 
 <br>
@@ -11,7 +11,7 @@ https://minecraft.wiki/w/Tutorial:Setting_up_a_Java_Edition_server
 ## Prerequisites
 
 -   Server with Docker and Docker Compose installed
--   Alternatively, you can run the server on your local machine
+-   Alternatively, you can run it on your local machine
 -   Git installed to clone the repository
 -   Python3 (optional, if you want to run mcstatus)
 
