@@ -69,7 +69,7 @@ source <name of your environment>/bin/activate
 2. Install dependencies:
 
 ```shell
-python install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 3. Run the script:
@@ -82,12 +82,12 @@ mcstatus <ip-address>:<port> status
 
 ## Configuration
 
-The server can be configured with some basic settings. This settings can easily chnaged within the `docker compose` command. These settings are optional and can be left out. The default values will be used in this case. All other official settings of a Mincraft Server are default values.
+The server can be configured with some basic settings. These settings can easily changed within the `docker compose` command. These settings are optional and can be left out. The default values will be used in this case. All other official settings of a Minecraft Server are default values.
 
 | Settings       | Available values                                                      | Default          |
 | -------------- | --------------------------------------------------------------------- | ---------------- |
 | SERVER_NAME    | Your server name                                                      | `Peaceful World` |
-| LEVEL_TYPE     | `normal`, `flat`, `large_blomes`, `amplified`, `single_blome_surface` | `flat`           |
+| LEVEL_TYPE     | `normal`, `flat`, `large_biomes`, `amplified`, `single_biome_surface` | `flat`           |
 | MAX_PLAYERS    | Integer from 0 - (2^31 - 1)                                           | `5`              |
 | MAX_WORLD_SIZE | Integer from 1 - 29999984                                             | `1000`           |
 | DIFFICULTY     | `peaceful`, `easy`, `normal`, `hard`                                  | `peaceful`       |
