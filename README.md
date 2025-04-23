@@ -8,6 +8,16 @@ https://minecraft.wiki/w/Tutorial:Setting_up_a_Java_Edition_server
 
 <br>
 
+## Table of contents
+
+1. [Prerequisites](#prerequisites)
+2. [Quickstart](#quickstart)
+3. [mcstatus](#mcstatus-optional)
+4. [Usage](#usage)
+5. [Checklist](project-checklist.pdf)
+
+<br>
+
 ## Prerequisites
 
 -   Server with Docker and Docker Compose installed
@@ -17,7 +27,9 @@ https://minecraft.wiki/w/Tutorial:Setting_up_a_Java_Edition_server
 
 <br>
 
-## Getting started
+## Quickstart
+
+This section describes how to run the Minecraft Server with Docker Compose on port `8888`. Only Docker Compose and Git are required to run the server. The default values will be used if no settings are provided.
 
 1. Clone the repository:
 
@@ -80,9 +92,11 @@ mcstatus <ip-address>:<port> status
 
 <br>
 
-## Configuration
+## Usage
 
 The server can be configured with some basic settings. These settings can easily changed within the `docker compose` command. These settings are optional and can be left out. The default values will be used in this case. All other official settings of a Minecraft Server are default values.
+
+### Configuration
 
 | Settings       | Available values                                                      | Default          |
 | -------------- | --------------------------------------------------------------------- | ---------------- |
